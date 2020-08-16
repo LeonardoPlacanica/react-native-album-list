@@ -117,8 +117,7 @@ public class RNAlbumsModule extends ReactContextBaseJavaModule {
                 MediaStore.Images.ImageColumns.BUCKET_ID,
                 MediaStore.Images.ImageColumns.BUCKET_DISPLAY_NAME,
                 MediaStore.Images.ImageColumns.DATE_TAKEN,
-                MediaStore.Images.ImageColumns.DATA,
-                "count(" +  MediaStore.Images.ImageColumns.BUCKET_ID + ") as count"
+                MediaStore.Images.ImageColumns.DATA
         };
 
         String BUCKET_GROUP_BY = "1) GROUP BY 1,(2";
